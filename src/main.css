@@ -1,0 +1,71 @@
+body {
+    font-style: sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: lightcoral;
+    height: 40px;
+}
+
+h1 {
+    position: absolute;
+    left: 0;
+    font-size: 40px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    content: 0px 10px 0px 0px;
+
+}
+
+#ContainerDiv {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#TaskDiv {
+    width: 95%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    border: 2px solid black;
+    display: flex;
+}
+
+#AddTaskDiv {
+    margin: auto;
+    width: 75%;
+    padding: 10px 10px 10px 15px;
+    text-align: right;
+
+}
+
+#TaskButton {
+}
+
+#TaskDivLeft {
+    flex-grow: 1;
+}
+
+#TaskCheckBoxDiv {
+    display: grid;
+    place-items: center;
+}
+
+p {
+    padding: 15px 15px 25px 15px;
+}
+
+time {
+    padding: 15px 15px 25px 15px;
+}
