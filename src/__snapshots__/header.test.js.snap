@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Header 1`] = `
+<header>
+  <h1>
+    Tasker
+  </h1>
+  <nav>
+    Techformist
+  </nav>
+</header>
+`;

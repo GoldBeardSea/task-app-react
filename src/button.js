@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 const API = 'http://localhost:8080'
+// Replace with public ip of load balancer if it spins up. 
 
 class AddTask extends Component{
     state = {
@@ -52,7 +53,7 @@ class AddTask extends Component{
                     ?<div id='TaskInput'> 
                     <form onSubmit={this.handleSubmit}>
                         
-                            <label>Task</label>
+                            <label >Task</label>
                             <input type="text" name="taskInfo"></input>
 
                             <label>Date</label>

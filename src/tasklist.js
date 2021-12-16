@@ -8,6 +8,10 @@ class TaskList extends React.Component {
 //     }
 // }
 
+// TODO:  refactor function Task() to pass props to checkbox to help fix the issue
+// add in a delete button that shows up when a task is completed and send a delete request, and call delete 
+// Get it to re-render react elements by changing state.
+
   render() {
     return (
         <>
@@ -18,6 +22,8 @@ class TaskList extends React.Component {
 }
 
 const API = 'http://localhost:8080'
+// Replace with public ip of load balancer if it spins up. 
+
 
 function Task() {
   const [tasks, setTasks] = useState([]);
@@ -89,7 +95,5 @@ function Task() {
     });
   }
 }
-
-
 
 export default TaskList;
