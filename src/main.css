@@ -8,6 +8,10 @@ header {
     height: 40px;
 }
 
+div {
+    border-radius: 25px;
+}
+
 h1 {
     position: absolute;
     left: 0;
@@ -40,6 +44,8 @@ nav {
     position: relative;
     border: 2px solid black;
     display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #AddTaskDiv {
