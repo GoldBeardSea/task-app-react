@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "taskInfo": "Learn React",
+        "date": "12-16-2021",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "taskInfo": "Example",
+        "date": "12-16-2021",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "taskInfo": "Whatever",
+        "date": "12-16-2021",
+        "completed": false
+    },
+    {
+        "id": 4,
+        "taskInfo": "New One",
+        "date": "12-16-2021",
+        "completed": false
+    }
+]
