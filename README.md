@@ -1,3 +1,19 @@
+# Readme from the Author
+
+This is a simple react app that is designed to work with a backend that serves task objects to a react component that generates a list of tisks by querying a db. 
+
+Ideally it is supposed to work with a Db that is running, but my original plan of having it connect to an Oracle OKE deployed Dropwizard server has run into a few snags.
+
+The React App is dockerized images can be pulled publicly from docker where my account is tjbusch.
+
+The Dropwizard back end can [be found here.](https://github.com/GoldBeardSea/task-app-dropwizard)
+
+Currently some remaining implementations of Delete would need to be added for full crud. Likely I will be adding buttons and other attributes to the application as it expands. 
+
+## Additional Links
+
+Will add the backend api and the front end url when I complete the hosting. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
